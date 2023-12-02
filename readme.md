@@ -2,10 +2,10 @@
 ### By Taz Campbell
 ## Description on Project
 
-    I'd like to create a search site where a user can search for a monster based on its challenge rating where the results provided list the names of the monsters and their stats (hopefully a picture too, but I don't want to get ahead of myself)
+    I'd like to create a search site where a user can search for a monster based on its challenge rating where the results provided list the names of the monsters and their stats (hopefully a picture too, but I don't want to get ahead of myself). The user will select from a drop-down menu which CR they would like to choose from and select 'search' which will result with the creatures in that respective CR. Those results should include the name, stats, and image of the creatures.
 
-## Planned Tech
-
+## Planned Tech 
+    HTML, CSS, JS, JSON, jQuery, API, and Bard to bounce ideas off of and to help test code
 
 ## Details about the API
 
@@ -1716,13 +1716,13 @@ The Data I get back:
 
 ![My Mobile View](https://i.imgur.com/Ed1Y1Kp.png)
 
-DEPLYOYED SITE: [Click Here](https://sealproject1.vercel.app/)
+DEPLYOYED SITE: [Click Here](https://project1-five-teal.vercel.app/)
 
 ## Schedule of Work
 
 |Day | Goal | What I did accomplish |
 |----|------|-----------------------|
-| Sat | Create Readme, Deploy, Get Approval | |
+| Sat | Create Readme, Deploy, Get Approval |ReadMe Created|
 | Sun | Build fetch of data in JS file ||
 | Mon | Render data from API on screen ||
 | Tues| Build form for user to interact with ||
