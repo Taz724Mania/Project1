@@ -1722,11 +1722,11 @@ DEPLYOYED SITE: [Click Here](https://project1-five-teal.vercel.app/)
 
 |Day | Goal | What I did accomplish |
 |----|------|-----------------------|
-| Sat | Create Readme, Deploy, Get Approval |ReadMe Created|
+| Sat | Create Readme, Deploy, Get Approval |ReadMe, Deploy,|
 | Sun | Build fetch of data in JS file ||
-| Mon | Render data from API on screen ||
-| Tues| Build form for user to interact with ||
-| Wed | wrap up functionality ||
-|Thurs| mobile layout styling ||
-| Fri | Desktop layout styling ||
+| Mon | Render data from API on screen | Build form for user to interact with ||
+| Tues| Wrap up functionality ||
+| Wed | Wrap up functionality ||
+|Thurs| Desktop layout styling ||
+| Fri | Mobile layout styling ||
 | Sat | Present Project ||
