@@ -17,14 +17,18 @@ button.addEventListener('click', () => {
       urlWithChallengeRating += `?challenge_rating=${selectedChallengeRating}`;
     }
   
+    let x = ' '
     fetch(urlWithChallengeRating)
       .then(response => response.json())
       .then(data => {
-        resultsList.innerHTML = "";
+        resultsList.innerHTML = ""
         data.results.forEach(monster => {
-          const listItem = document.createElement("li");
-          listItem.textContent = monster.name;
-          resultsList.appendChild(listItem);
-        });
+          const listItem = document.createElement("li")
+          listItem.textContent = monster.url
+        //   resultsList.appendChild(listItem);
+            x += `<div class="x"><a href='${monster.url}'>${monster.name}</a></div>`
+        })
+        resultsList.innerHTML = x
+         //   resultsList.appendChild(listItem);
       })
-  });
+  })
