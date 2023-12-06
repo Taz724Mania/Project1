@@ -24,11 +24,29 @@ header {
     max-height: 150px;
 }
 
-
 header h1 {
     color: #D2B48D;
     text-align: center;
     font-family: "enchanted land", Arial, Helvetica, sans-serif;
-    font-size: 550%;
+    font-size: 100px;
     margin-top: 50px;
+    text-shadow: 1px 1px 2px #5C4033, 3px 3px 5px #5C4033;
+}
+
+h2 {
+    color: #D2B48D;
+    font-family: "enchanted land";
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 2px #5C4033, 3px 3px 5px #5C4033;
+}
+
+select {
+    margin-left: 550px;
+    background-color: #D2B48D;
+}
+
+button {
+    background-color: #D2B48D;
 }
