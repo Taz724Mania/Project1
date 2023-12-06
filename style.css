@@ -1,0 +1,22 @@
+body {
+    background-image: url('./images/social-1640x680-terrain-wa.avif');
+    background-repeat: no-repeat;
+    background-size: 100svw 100svh;
+}
+
+header {
+    text-align: center;
+    border: 2px solid white;
+    max-height: 150px;
+}
+
+header img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    margin-right: 800px;
+}
+
+header h1 {
+    border: 2px solid black;
+}
