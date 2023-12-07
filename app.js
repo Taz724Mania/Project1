@@ -9,12 +9,13 @@ const button = document.getElementById('search')
 const resultsList = document.getElementById('results')
 
 
-button.addEventListener('click', () => {
-    const selectedChallengeRating = challengeRating.value;
+$(button).click(function() {
+    const selectedChallengeRating = $(challengeRating).val();
+  })
   
-    let urlWithChallengeRating = url;
+    let urlWithChallengeRating = url
     if (selectedChallengeRating !== " ") {
-      urlWithChallengeRating += `?challenge_rating=${selectedChallengeRating}`;
+      urlWithChallengeRating += `?challenge_rating=${selectedChallengeRating}`
     }
   
     let nameStyle = ' '
@@ -31,4 +32,3 @@ button.addEventListener('click', () => {
         resultsList.innerHTML = nameStyle
          //   resultsList.appendChild(listItem);
       })
-  })

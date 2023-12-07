@@ -16,7 +16,7 @@
 body {
     background-image: url('./images/1339726.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 175svh; 
     @media screen and (max-width: 768px) {
         background-size: 100vw 100svh;
       }
