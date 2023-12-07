@@ -11,8 +11,7 @@ const resultsList = document.getElementById('results')
 
 $(button).click(function() {
     const selectedChallengeRating = $(challengeRating).val();
-  })
-  
+
     let urlWithChallengeRating = url
     if (selectedChallengeRating !== " ") {
       urlWithChallengeRating += `?challenge_rating=${selectedChallengeRating}`
@@ -32,3 +31,4 @@ $(button).click(function() {
         resultsList.innerHTML = nameStyle
          //   resultsList.appendChild(listItem);
       })
+    })
