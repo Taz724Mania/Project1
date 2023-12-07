@@ -98,9 +98,6 @@ button {
 #results ul{
     color: #D2B48D;
     list-style-type: none;
-    @media screen and (max-width: 768px) {
-        font-size: 0.8em;
-      }
 }
 
 .nameStyle a {
