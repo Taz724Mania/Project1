@@ -17,7 +17,7 @@ button.addEventListener('click', () => {
       urlWithChallengeRating += `?challenge_rating=${selectedChallengeRating}`;
     }
   
-    let x = ' '
+    let nameStyle = ' '
     fetch(urlWithChallengeRating)
       .then(response => response.json())
       .then(data => {
@@ -26,9 +26,9 @@ button.addEventListener('click', () => {
           const listItem = document.createElement("li")
           listItem.textContent = monster.url
         //   resultsList.appendChild(listItem);
-            x += `<div class="x"><a href='${monster.url}'>${monster.name}</a></div>`
+            nameStyle += `<div class="nameStyle"><a href='https://www.dnd5eapi.co${monster.url}'>${monster.name}</a></div>`
         })
-        resultsList.innerHTML = x
+        resultsList.innerHTML = nameStyle
          //   resultsList.appendChild(listItem);
       })
   })

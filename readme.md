@@ -1708,6 +1708,8 @@ The Data I get back:
     On a phone, the title and search bars will be in the top and centered
     The results will be ordered alphabetically by monster name and have the stats listed under each name. The image of the creature will be the background image for each respective creature block
 
+    12/6/23 Edit: I DEFINITELY bit off more than I could chew with what I wanted by way of design and ported information.
+
 #### Desktop View
 
 ![My Desktop View](https://i.imgur.com/7qADj8Q.png)
@@ -1726,7 +1728,7 @@ DEPLYOYED SITE: [Click Here](https://project1-five-teal.vercel.app/)
 | Sun | Build fetch of data in JS file ||
 | Mon | Render data from API on screen | Build form for user to interact with ||
 | Tues| Wrap up functionality ||
-| Wed | Wrap up functionality |Build form for user to interact with |
+| Wed | Wrap up functionality |Build form for user to interact with, ,  |
 |Thurs| Desktop layout styling ||
 | Fri | Mobile layout styling ||
 | Sat | Present Project ||
