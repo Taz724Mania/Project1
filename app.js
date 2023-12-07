@@ -25,10 +25,13 @@ $(button).click(function() {
         data.results.forEach(monster => {
           const listItem = document.createElement("li")
           listItem.textContent = monster.url
-        //   resultsList.appendChild(listItem);
             nameStyle += `<div class="nameStyle"><a href='https://www.dnd5eapi.co${monster.url}'>${monster.name}</a></div>`
         })
         resultsList.innerHTML = nameStyle
-         //   resultsList.appendChild(listItem);
       })
     })
+    
+    $(window).scroll(function () {
+        const scrollY = $(window).scrollTop();
+        $("#background").css("background-position", `0 ${scrollY}px`);
+      });
