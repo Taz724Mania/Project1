@@ -29,9 +29,10 @@ $(button).click(function() {
         })
         resultsList.innerHTML = nameStyle
       })
-    })
-    
-    $(window).scroll(function () {
+      $(window).scroll(function () {
         const scrollY = $(window).scrollTop();
         $("#background").css("background-position", `0 ${scrollY}px`);
       });
+    })
+    
+    
