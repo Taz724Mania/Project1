@@ -28,18 +28,7 @@ $(button).click(function() {
             nameStyle += `<div class="nameStyle"><a href='https://www.dnd5eapi.co${monster.url}'>${monster.name}</a></div>`
         })
         resultsList.innerHTML = nameStyle
-
-        // if ($(window).width() <= 916) {
-        //   $("#background").css("background-size", "cover 100vh");
-        // }
     })
-
-    if ($(window).width() <= 916) {
-      $("#background").css({
-        "background-size": "cover 100vh",
-        "background-position": "center",
-      });
-    }
   })
     
     
