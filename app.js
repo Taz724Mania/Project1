@@ -34,12 +34,12 @@ $(button).click(function() {
         }
     })
 
-    if ($(window).width() <= 916) {
-      $("#background").css({
-        "background-size": "cover 100vh",
-        "background-position": "center",
-      });
-    }
+    // if ($(window).width() <= 916) {
+    //   $("#background").css({
+    //     "background-size": "cover 100vh",
+    //     "background-position": "center",
+    //   });
+    // }
   })
     
     
