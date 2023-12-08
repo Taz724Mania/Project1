@@ -20,7 +20,7 @@ body {
     height: 100vh;
     @media screen and (max-width: 768px) {
        background: cover;
-       height: 100dvh;
+       height: 100svh
       }
 }
 
@@ -70,6 +70,7 @@ main {
     justify-content: center;
     text-shadow: 1px 1px 2px #000000, 3px 3px 5px #000000;
     @media screen {
+        background: cover;
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -98,6 +99,9 @@ button {
 #results ul{
     color: #D2B48D;
     list-style-type: none;
+    @media screen and (max-width: 768px) {
+        font-size: 0.8em;
+      }
 }
 
 .nameStyle a {

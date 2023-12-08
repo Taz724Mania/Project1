@@ -29,15 +29,17 @@ $(button).click(function() {
         })
         resultsList.innerHTML = nameStyle
 
-    //   if ($(window).width() <= 916) {
-    //     $("#background").css("background-size", "cover 916px")
-    //   }
+        if ($(window).width() <= 916) {
+          $("#background").css("background-size", "cover 100vh");
+        }
     })
 
-//   $(window).scroll(function () {
-//     const scrollY = $(window).scrollTop()
-//     $("#background").css("background-position", `0 ${scrollY}px`)
-//   })
-})
+    if ($(window).width() <= 916) {
+      $("#background").css({
+        "background-size": "cover 100vh",
+        "background-position": "center",
+      });
+    }
+  })
     
     
